@@ -125,6 +125,16 @@ h1 {
   color: var(--ink-soft);
 }
 
+.lead a {
+  color: var(--mist-deep);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.lead a:hover {
+  color: var(--ink);
+}
+
 @media (min-width: 48rem) {
   .content {
     padding: 3rem 2.5rem 3.25rem;
